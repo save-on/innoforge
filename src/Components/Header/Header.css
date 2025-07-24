@@ -1,0 +1,38 @@
+.header__logo {
+  display: flex;
+  align-items: center;
+  padding: 55px 50px 0;
+}
+
+.header__image {
+  width: 88px;
+  height: 88px;
+}
+
+.header__title {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 20px;
+  color: #01c2e8;
+  margin: 0 0 0 10px;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+}
+
+.header__name {
+  font-family: "Poppins";
+  font-size: 36px;
+  margin: 0 0 0 auto;
+  color: #01c2e8;
+  text-align: right;
+  text-transform: capitalize;
+}
+
+.header__name_first {
+  margin: 0;
+}
+
+.header__name_last {
+  font-weight: 600;
+  margin: 0;
+}
