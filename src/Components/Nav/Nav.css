@@ -1,0 +1,30 @@
+.nav {
+  transform: rotate(90deg);
+  position: absolute;
+  top: 50%;
+  right: -85px;
+  width: max-content;
+  color: #fff;
+}
+
+.nav__tabs {
+  display: flex;
+  font-family: "Poppins";
+  font-size: 20px;
+  gap: 15px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.nav__tab {
+  cursor: pointer;
+  transition: color 0.2s ease-in 0s, text-decoration 0.2s ease-in 0s;
+}
+
+.nav__tab:hover {
+  color: #a7a7a7;
+  text-decoration: line-through;
+}
