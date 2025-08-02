@@ -26,9 +26,10 @@
 }
 
 .anilogo__image_circle {
-  animation: spin 3s linear infinite;
+  animation: spin 4s linear infinite reverse;
+  cursor: pointer;
 }
 
 .anilogo__image_line {
-  animation: spin 7s linear infinite;
+  animation: spin 10s linear infinite;
 }

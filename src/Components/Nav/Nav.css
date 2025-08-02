@@ -24,6 +24,11 @@
   transition: color 0.2s ease-in 0s, text-decoration 0.2s ease-in 0s;
 }
 
+.nav__tab_style-reset {
+  text-decoration: inherit;
+  color: inherit;
+}
+
 .nav__tab:hover {
   color: #a7a7a7;
   text-decoration: line-through;
